@@ -29,10 +29,20 @@ namespace SandwichServices
         }
         [OperationContract]
         [WebInvoke(Method = "POST", UriTemplate = "Test/CostOfSandwiches", ResponseFormat = WebMessageFormat.Json)]
-        [DescriptionAttribute("1.25*quantity")]
+        [DescriptionAttribute("好接口")]
         // 在此处添加更多操作并使用 [OperationContract] 标记它们
         public double CostOfSandwiches(int quantity) 
         {
+            try
+            {
+
+            }
+            catch (Exception)
+            {
+                
+                throw;
+            }
+
             return 1.25 * quantity;
         }
     }
