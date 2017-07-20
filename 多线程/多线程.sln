@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeadLockTest", "DeadLockTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多线程2", "多线程2\多线程2.csproj", "{1FA349DB-3A46-40A6-A307-6532C6B4C42E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTaskTest", "ThreadTaskTest\ThreadTaskTest.csproj", "{724A030A-1738-4158-A9D4-32BAA2CF6FE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{1FA349DB-3A46-40A6-A307-6532C6B4C42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FA349DB-3A46-40A6-A307-6532C6B4C42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FA349DB-3A46-40A6-A307-6532C6B4C42E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724A030A-1738-4158-A9D4-32BAA2CF6FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724A030A-1738-4158-A9D4-32BAA2CF6FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724A030A-1738-4158-A9D4-32BAA2CF6FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724A030A-1738-4158-A9D4-32BAA2CF6FE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
