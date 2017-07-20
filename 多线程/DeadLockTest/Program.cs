@@ -30,11 +30,15 @@ namespace DeadLockTest
         public void TestThread()
         {
             decimal a = 0;
-            //System.Threading.Tasks.Parallel.For(0, 100000, (i) =>
-            //{
-            //    a++;
-            //});
-            for (int i = 0; i < 100000; i++)
+            System.Threading.Tasks.Parallel.For(0, 10, (i) =>
+            {
+                Console.Write(a + " = " + a + "+");
+                a++;
+                Console.WriteLine(a);
+                //所以在用多线程执行的时候，要注意使用
+            });
+            Console.WriteLine("22222222222222222222222");
+            for (int i = 0; i < 10; i++)
             {
                 a+=i;
                 Console.WriteLine(a);
