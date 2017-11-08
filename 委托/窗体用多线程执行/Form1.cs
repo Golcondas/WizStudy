@@ -41,6 +41,22 @@ namespace 窗体用多线程执行
                 progressBar1.Value = 10;
                 label1.Text = "10";
             });
+            label1.Text = "加载10完成";
+            this.Invoke((EventHandler)delegate
+            {
+                progressBar1.Value = 11;
+                label1.Text = "11";
+            });
+            label1.Text = "加载11完成";
+            this.Invoke((EventHandler)delegate
+            {
+                progressBar1.Value = 12;
+                label1.Text = "12";
+            });
+            label1.Text = "加载12完成";
+            this.Invoke((EventHandler)delegate {
+                progressBar1.Value = 100;
+            });
         }
     }
 }
